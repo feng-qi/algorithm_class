@@ -1,4 +1,4 @@
-#include <algorithm>            // std::swap
+#include <utility>              // std::swap
 #include <vector>
 
 void insertion_sort(std::vector<int>& v) {

@@ -1,0 +1,5 @@
+The test files use gtest, on my system(Ubuntu), it's compiled using:
+
+#+BEGIN_SRC shell
+  clang++ BubbleSort_test.cc -std=c++11 -lgtest -lgtest_main -lpthread
+#+END_SRC

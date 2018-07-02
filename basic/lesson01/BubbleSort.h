@@ -1,5 +1,5 @@
 #include <vector>
-#include <algorithm>
+#include <utility>              // std::swap
 
 void bubble_sort(std::vector<int>& vals) {
     for (int i = vals.size() - 1; i > 0; --i) {
